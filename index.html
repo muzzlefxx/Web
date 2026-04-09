@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muzzle - DJ / Furry / Photographer のプロフィールページ">
+    <title>Muzzle - DJ / Furry / Photographer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link" data-translate="nav.about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-translate="nav.skills">Skills</a></li>
+                <li><a href="#social" class="nav-link" data-translate="nav.social">Social</a></li>
+                <li><a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="ja" title="日本語">JA</button>
+                <button class="lang-btn" data-lang="en" title="English">EN</button>
+                <button class="lang-btn" data-lang="zh-CN" title="简体中文">简</button>
+                <button class="lang-btn" data-lang="zh-TW" title="繁體中文">繁</button>
+                <button class="lang-btn" data-lang="ko" title="한국어">KR</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="animated-bg"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title" data-aos="fade-up">MUZZLE</h2>
+                <div class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    <span class="role" data-translate="hero.role1">DJ</span>
+                    <span class="separator">/</span>
+                    <span class="role" data-translate="hero.role2">Furry</span>
+                    <span class="separator">/</span>
+                    <span class="role" data-translate="hero.role3">Photographer</span>
+                </div>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="400" data-translate="hero.description">
+                    音楽、アート、そしてビジュアルストーリーテリングの融合
+                </p>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#about" class="btn btn-primary" data-translate="hero.cta1">探索する</a>
+                    <a href="#contact" class="btn btn-outline" data-translate="hero.cta2">お問い合わせ</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p data-translate="hero.scroll">Scroll</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-translate="about.title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3 class="about-subtitle" data-translate="about.subtitle">Creative Journey</h3>
+                    <p class="about-description" data-translate="about.description1">
+                        音楽の持つエネルギーとビジュアルアートの美しさを組み合わせ、独自の世界観を創造しています。
+                        DJとしてフロアを揺らし、フォトグラファーとして瞬間を切り取り、
+                        Furryカルチャーを通じて表現の新しい可能性を探求しています。
+                    </p>
+                    <p class="about-description" data-translate="about.description2">
+                        それぞれの分野で培った経験と感性を融合させ、
+                        唯一無二のクリエイティブ体験をお届けします。
+                    </p>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="images/profile.jpg" alt="Muzzle Profile" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-translate="skills.title">Skills & Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- DJ Skill -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fas fa-headphones-alt"></i>
+                    </div>
+                    <h3 class="skill-title" data-translate="skills.dj">DJ</h3>
+                    <p class="skill-description" data-translate="skills.djDesc">
+                        多様なジャンルを横断するミックステクニックが特徴。イベントやフロアの雰囲気に合わせた選曲で一体感のあるグルーヴを提供。国境を越え、台灣や韓国でも活動。
+                    </p>
+                    <div class="skill-tags">
+                        <span class="tag" data-translate="skills.djTag1">House</span>
+                        <span class="tag" data-translate="skills.djTag2">EDM</span>
+                        <span class="tag" data-translate="skills.djTag3">POP</span>
+                    </div>
+                </div>
+
+                <!-- Photography Skill -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h3 class="skill-title" data-translate="skills.photography">Photography</h3>
+                    <p class="skill-description" data-translate="skills.photographyDesc">
+                        感情とストーリーを切り取る。ポートレートからイベント撮影まで幅広くこなします。
+                    </p>
+                    <div class="skill-tags">
+                        <span class="tag" data-translate="skills.photoTag1">Portrait</span>
+                        <span class="tag" data-translate="skills.photoTag2">Event</span>
+                        <span class="tag" data-translate="skills.photoTag3">Creative</span>
+                    </div>
+                </div>
+
+                <!-- Furry Art Skill -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3 class="skill-title" data-translate="skills.furry">Furry Culture</h3>
+                    <p class="skill-description" data-translate="skills.furryDesc">
+                        想像力と自己表現の自由を追求。キャラクターとコミュニティ活動を通じた創造的表現を行います。
+                    </p>
+                    <div class="skill-tags">
+                        <span class="tag" data-translate="skills.furryTag1">Fursuits</span>
+                        <span class="tag" data-translate="skills.furryTag2">Community</span>
+                        <span class="tag" data-translate="skills.furryTag3">Expression</span>
+                    </div>
+                </div>
+
+                <!-- Organizer Skill -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <h3 class="skill-title" data-translate="skills.organizer">Organizer</h3>
+                    <p class="skill-description" data-translate="skills.organizerDesc">
+                        イベントの企画・運営を通じて、コミュニティをつなぎ、創造的な体験を提供。
+                    </p>
+                    <div class="skill-tags">
+                        <span class="tag" data-translate="skills.organizerTag1">Event Planning</span>
+                        <span class="tag" data-translate="skills.organizerTag2">Management</span>
+                        <span class="tag" data-translate="skills.organizerTag3">Community Building</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Career Timeline -->
+            <div class="timeline-section" data-aos="fade-up">
+                <h3 class="timeline-title" data-translate="skills.timelineTitle">Experience Timeline</h3>
+                <div class="timeline">
+                    <!-- June 2026 - UTFG2026 -->
+                    <div class="timeline-item upcoming" data-aos="fade-right">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge" data-translate="skills.timeline0Badge">Upcoming</span>
+                            <h4 data-translate="skills.timeline0Year">2026年6月</h4>
+                            <p class="timeline-event" data-translate="skills.timeline0Event">UTFG2026</p>
+                            <p class="timeline-location" data-translate="skills.timeline0Location">🇹🇼 台湾のファーリーコンベンション</p>
+                        </div>
+                    </div>
+                    
+                    <!-- November 2025 - Kemocon18 -->
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4 data-translate="skills.timeline1Year">2025年11月</h4>
+                            <p class="timeline-event" data-translate="skills.timeline1Event">Kemocon18 DJ</p>
+                            <p class="timeline-location" data-translate="skills.timeline1Location">🇯🇵 日本のファーリーコンベンション</p>
+                        </div>
+                    </div>
+                    
+                    <!-- November 2025 - Infurnity -->
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4 data-translate="skills.timeline2Year">2025年11月</h4>
+                            <p class="timeline-event" data-translate="skills.timeline2Event">Infurnity2025 AfterParty DJ</p>
+                            <p class="timeline-location" data-translate="skills.timeline2Location">🇹🇼 台灣のファーリーコンベンション</p>
+                        </div>
+                    </div>
+                    
+                    <!-- October 2025 - Fur:RAID -->
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4 data-translate="skills.timeline3Year">2025年10月</h4>
+                            <p class="timeline-event" data-translate="skills.timeline3Event">Fur:RAID DJ</p>
+                            <p class="timeline-location" data-translate="skills.timeline3Location">🇰🇷 韓国のファーリーコンベンション</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section class="section social-section" id="social">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-translate="social.title">Social Links</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-translate="social.subtitle">各種SNSでつながりましょう</p>
+            </div>
+            <div class="social-grid">
+                <a href="https://x.com/Mzlkun" class="social-card" data-aos="zoom-in" data-aos-delay="100" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon twitter">
+                        <span class="x-logo">𝕏</span>
+                    </div>
+                    <h3 class="social-name">X (Twitter)</h3>
+                    <p class="social-handle">@Mzlkun</p>
+                </a>
+
+                <a href="https://www.twitch.tv/mzlsty" class="social-card" data-aos="zoom-in" data-aos-delay="200" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon twitch">
+                        <i class="fab fa-twitch"></i>
+                    </div>
+                    <h3 class="social-name">Twitch</h3>
+                    <p class="social-handle">mzlsty</p>
+                </a>
+
+                <a href="https://www.mixcloud.com/MuzzleFX/" class="social-card" data-aos="zoom-in" data-aos-delay="300" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon mixcloud">
+                        <i class="fab fa-mixcloud"></i>
+                    </div>
+                    <h3 class="social-name">Mixcloud</h3>
+                    <p class="social-handle">MuzzleFX</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title" data-translate="contact.title">Contact</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" data-translate="contact.subtitle">お仕事のご依頼やコラボレーションのお問い合わせはこちらから</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-translate="contact.responseLabel">Response Time</h4>
+                            <p data-translate="contact.responseDesc">通常1〜3営業日以内にご返信いたします</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name" data-translate="contact.nameLabel">お名前 <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required data-translate="contact.namePlaceholder" placeholder="山田太郎">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-translate="contact.emailInputLabel">メールアドレス <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required data-translate="contact.emailPlaceholder" placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-translate="contact.subjectLabel">件名 <span class="required">*</span></label>
+                        <input type="text" id="subject" name="subject" required data-translate="contact.subjectPlaceholder" placeholder="お問い合わせの件名">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-translate="contact.messageLabel">メッセージ <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" required data-translate="contact.messagePlaceholder" placeholder="お問い合わせ内容をご記入ください"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text" data-translate="contact.submit">送信する</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">MUZZLE</h3>
+                    <p class="footer-tagline" data-translate="footer.tagline">DJ / Furry / Photographer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://x.com/Mzlkun" class="footer-social-link x-link" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+                        <span class="x-logo-small">𝕏</span>
+                    </a>
+                    <a href="https://www.twitch.tv/mzlsty" class="footer-social-link" aria-label="Twitch" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://www.mixcloud.com/MuzzleFX/" class="footer-social-link" aria-label="Mixcloud" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-mixcloud"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer.copyright">&copy; 2024 Muzzle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
