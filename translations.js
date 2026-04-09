@@ -1,0 +1,460 @@
+// ==========================================
+// Multi-language Translation Data
+// ==========================================
+
+const translations = {
+    ja: {
+        // Navigation
+        'nav.about': 'About',
+        'nav.skills': 'Skills',
+        'nav.social': 'Social',
+        'nav.contact': 'Contact',
+        
+        // Hero Section
+        'hero.title': 'MUZZLE',
+        'hero.role1': 'DJ',
+        'hero.role2': 'Furry',
+        'hero.role3': 'Photographer',
+        'hero.description': '音楽、アート、そしてビジュアルストーリーテリングの融合',
+        'hero.cta1': '探索する',
+        'hero.cta2': 'お問い合わせ',
+        'hero.scroll': 'Scroll',
+        
+        // About Section
+        'about.title': 'About Me',
+        'about.subtitle': 'Creative Journey',
+        'about.description1': '音楽の持つエネルギーとビジュアルアートの美しさを組み合わせ、独自の世界観を創造しています。DJとしてフロアを揺らし、フォトグラファーとして瞬間を切り取り、Furryカルチャーを通じて表現の新しい可能性を探求しています。',
+        'about.description2': 'それぞれの分野で培った経験と感性を融合させ、唯一無二のクリエイティブ体験をお届けします。',
+        'about.imagePlaceholder': 'プロフィール画像',
+        
+        // Skills Section
+        'skills.title': 'Skills & Experience',
+        'skills.dj': 'DJ',
+        'skills.djDesc': '多様なジャンルを横断するミックステクニックが特徴。イベントやフロアの雰囲気に合わせた選曲で一体感のあるグルーヴを提供。国境を越え、台灣や韓国でも活動。',
+        'skills.djTag1': 'House',
+        'skills.djTag2': 'EDM',
+        'skills.djTag3': 'POP',
+        'skills.photography': 'Photography',
+        'skills.photographyDesc': '感情とストーリーを切り取る。ポートレートからイベント撮影まで幅広くこなします。',
+        'skills.photoTag1': 'Portrait',
+        'skills.photoTag2': 'Event',
+        'skills.photoTag3': 'Creative',
+        'skills.furry': 'Furry Culture',
+        'skills.furryDesc': '想像力と自己表現の自由を追求。キャラクターとコミュニティ活動を通じた創造的表現を行います。',
+        'skills.furryTag1': 'Fursuits',
+        'skills.furryTag2': 'Community',
+        'skills.furryTag3': 'Expression',
+        'skills.organizer': 'Organizer',
+        'skills.organizerDesc': 'イベントの企画・運営を通じて、コミュニティをつなぎ、創造的な体験を提供。',
+        'skills.organizerTag1': 'Event Planning',
+        'skills.organizerTag2': 'Management',
+        'skills.organizerTag3': 'Community Building',
+        'skills.timelineTitle': 'Experience Timeline',
+        'skills.timeline0Badge': 'Upcoming',
+        'skills.timeline0Year': '2026年6月',
+        'skills.timeline0Event': 'UTFG2026',
+        'skills.timeline0Location': '🇹🇼 台湾のファーリーコンベンション',
+        'skills.timeline1Year': '2025年11月',
+        'skills.timeline1Event': 'Kemocon18 DJ',
+        'skills.timeline1Location': '🇯🇵 日本のファーリーコンベンション',
+        'skills.timeline2Year': '2025年11月',
+        'skills.timeline2Event': 'Infurnity2025 AfterParty DJ',
+        'skills.timeline2Location': '🇹🇼 台灣のファーリーコンベンション',
+        'skills.timeline3Year': '2025年10月',
+        'skills.timeline3Event': 'Fur:RAID DJ',
+        'skills.timeline3Location': '🇰🇷 韓国のファーリーコンベンション',
+        
+        // Social Section
+        'social.title': 'Social Links',
+        'social.subtitle': '各種SNSでつながりましょう',
+        
+        // Contact Section
+        'contact.title': 'Contact',
+        'contact.subtitle': 'お仕事のご依頼やコラボレーションのお問い合わせはこちらから',
+        'contact.emailLabel': 'Email',
+        'contact.emailNote': '',
+        'contact.responseLabel': 'Response Time',
+        'contact.responseDesc': '通常1〜3営業日以内にご返信いたします',
+        'contact.nameLabel': 'お名前',
+        'contact.namePlaceholder': '山田太郎',
+        'contact.emailInputLabel': 'メールアドレス',
+        'contact.emailPlaceholder': 'your@email.com',
+        'contact.subjectLabel': '件名',
+        'contact.subjectPlaceholder': 'お問い合わせの件名',
+        'contact.messageLabel': 'メッセージ',
+        'contact.messagePlaceholder': 'お問い合わせ内容をご記入ください',
+        'contact.submit': '送信する',
+        'contact.sending': '送信中...',
+        'contact.success': 'メッセージを送信しました！近日中にご返信いたします。',
+        'contact.error': '送信中にエラーが発生しました。メールアドレスに直接ご連絡ください。',
+        
+        // Footer
+        'footer.tagline': 'DJ / Furry / Photographer',
+        'footer.copyright': '© 2024 Muzzle. All rights reserved.'
+    },
+    
+    en: {
+        // Navigation
+        'nav.about': 'About',
+        'nav.skills': 'Skills',
+        'nav.social': 'Social',
+        'nav.contact': 'Contact',
+        
+        // Hero Section
+        'hero.title': 'MUZZLE',
+        'hero.role1': 'DJ',
+        'hero.role2': 'Furry',
+        'hero.role3': 'Photographer',
+        'hero.description': 'A fusion of music, art, and visual storytelling',
+        'hero.cta1': 'Explore',
+        'hero.cta2': 'Contact',
+        'hero.scroll': 'Scroll',
+        
+        // About Section
+        'about.title': 'About Me',
+        'about.subtitle': 'Creative Journey',
+        'about.description1': 'I combine the energy of music with the beauty of visual art to create a unique worldview. As a DJ, I move the floor; as a photographer, I capture moments; and through Furry culture, I explore new possibilities of expression.',
+        'about.description2': 'By fusing experience and sensibility cultivated in each field, I deliver one-of-a-kind creative experiences.',
+        'about.imagePlaceholder': 'Profile Image',
+        
+        // Skills Section
+        'skills.title': 'Skills & Experience',
+        'skills.dj': 'DJ',
+        'skills.djDesc': 'Characterized by mixing techniques that span diverse genres. Provides cohesive grooves with music selection tailored to the atmosphere of events and floors. Active across borders, including Taiwan and Korea.',
+        'skills.djTag1': 'House',
+        'skills.djTag2': 'EDM',
+        'skills.djTag3': 'POP',
+        'skills.photography': 'Photography',
+        'skills.photographyDesc': 'Capturing emotions and stories. Handles everything from portraits to event photography.',
+        'skills.photoTag1': 'Portrait',
+        'skills.photoTag2': 'Event',
+        'skills.photoTag3': 'Creative',
+        'skills.furry': 'Furry Culture',
+        'skills.furryDesc': 'Pursuing freedom of imagination and self-expression. Creative expression through characters and community activities.',
+        'skills.furryTag1': 'Fursuits',
+        'skills.furryTag2': 'Community',
+        'skills.furryTag3': 'Expression',
+        'skills.organizer': 'Organizer',
+        'skills.organizerDesc': 'Connecting communities and providing creative experiences through event planning and management.',
+        'skills.organizerTag1': 'Event Planning',
+        'skills.organizerTag2': 'Management',
+        'skills.organizerTag3': 'Community Building',
+        'skills.timelineTitle': 'Experience Timeline',
+        'skills.timeline0Badge': 'Upcoming',
+        'skills.timeline0Year': 'June 2026',
+        'skills.timeline0Event': 'UTFG2026',
+        'skills.timeline0Location': '🇹🇼 Furry Convention in Taiwan',
+        'skills.timeline1Year': 'November 2025',
+        'skills.timeline1Event': 'Kemocon18 DJ',
+        'skills.timeline1Location': '🇯🇵 Furry Convention in Japan',
+        'skills.timeline2Year': 'November 2025',
+        'skills.timeline2Event': 'Infurnity2025 AfterParty DJ',
+        'skills.timeline2Location': '🇹🇼 Furry Convention in Taiwan',
+        'skills.timeline3Year': 'October 2025',
+        'skills.timeline3Event': 'Fur:RAID DJ',
+        'skills.timeline3Location': '🇰🇷 Furry Convention in Korea',
+        
+        // Social Section
+        'social.title': 'Social Links',
+        'social.subtitle': 'Connect with me on social media',
+        
+        // Contact Section
+        'contact.title': 'Contact',
+        'contact.subtitle': 'For work inquiries or collaboration opportunities, please contact me here',
+        'contact.emailLabel': 'Email',
+        'contact.emailNote': '',
+        'contact.responseLabel': 'Response Time',
+        'contact.responseDesc': 'Typically within 1-3 business days',
+        'contact.nameLabel': 'Name',
+        'contact.namePlaceholder': 'John Doe',
+        'contact.emailInputLabel': 'Email',
+        'contact.emailPlaceholder': 'your@email.com',
+        'contact.subjectLabel': 'Subject',
+        'contact.subjectPlaceholder': 'Inquiry subject',
+        'contact.messageLabel': 'Message',
+        'contact.messagePlaceholder': 'Please write your inquiry here',
+        'contact.submit': 'Send',
+        'contact.sending': 'Sending...',
+        'contact.success': 'Message sent! I will reply soon.',
+        'contact.error': 'An error occurred during submission. Please contact via email directly.',
+        
+        // Footer
+        'footer.tagline': 'DJ / Furry / Photographer',
+        'footer.copyright': '© 2024 Muzzle. All rights reserved.'
+    },
+    
+    'zh-CN': {
+        // Navigation
+        'nav.about': '关于',
+        'nav.skills': '技能',
+        'nav.social': '社交',
+        'nav.contact': '联系',
+        
+        // Hero Section
+        'hero.title': 'MUZZLE',
+        'hero.role1': 'DJ',
+        'hero.role2': '兽迷',
+        'hero.role3': '摄影师',
+        'hero.description': '音乐、艺术与视觉叙事的融合',
+        'hero.cta1': '探索',
+        'hero.cta2': '联系我',
+        'hero.scroll': '滚动',
+        
+        // About Section
+        'about.title': '关于我',
+        'about.subtitle': '创意之旅',
+        'about.description1': '我将音乐的能量与视觉艺术的美感相结合，创造独特的世界观。作为DJ，我撼动舞池；作为摄影师，我捕捉瞬间；通过兽迷文化，我探索表达的新可能性。',
+        'about.description2': '融合在各个领域培养的经验和感性，为您提供独一无二的创意体验。',
+        'about.imagePlaceholder': '个人照片',
+        
+        // Skills Section
+        'skills.title': '技能与经验',
+        'skills.dj': 'DJ',
+        'skills.djDesc': '以跨越多种流派的混音技巧为特色。根据活动和舞池氛围选曲，提供具有一体感的律动。跨越国界，在台灣和韩国也有活动。',
+        'skills.djTag1': '浩室',
+        'skills.djTag2': '电子舞曲',
+        'skills.djTag3': '流行音乐',
+        'skills.photography': '摄影',
+        'skills.photographyDesc': '捕捉情感和故事。从人像到活动摄影，涵盖广泛。',
+        'skills.photoTag1': '肖像',
+        'skills.photoTag2': '活动',
+        'skills.photoTag3': '创意',
+        'skills.furry': '兽迷文化',
+        'skills.furryDesc': '追求想象力和自我表达的自由。通过角色和社区活动进行创意表达。',
+        'skills.furryTag1': '兽装',
+        'skills.furryTag2': '社区',
+        'skills.furryTag3': '表达',
+        'skills.organizer': '活动组织者',
+        'skills.organizerDesc': '通过活动策划和管理，连接社区，提供创意体验。',
+        'skills.organizerTag1': '活动策划',
+        'skills.organizerTag2': '管理',
+        'skills.organizerTag3': '社区建设',
+        'skills.timelineTitle': '经验时间线',
+        'skills.timeline0Badge': '即将到来',
+        'skills.timeline0Year': '2026年6月',
+        'skills.timeline0Event': 'UTFG2026',
+        'skills.timeline0Location': '🇹🇼 台湾兽迷大会',
+        'skills.timeline1Year': '2025年11月',
+        'skills.timeline1Event': 'Kemocon18 DJ',
+        'skills.timeline1Location': '🇯🇵 日本兽迷大会',
+        'skills.timeline2Year': '2025年11月',
+        'skills.timeline2Event': 'Infurnity2025 派对DJ',
+        'skills.timeline2Location': '🇹🇼 台湾兽迷大会',
+        'skills.timeline3Year': '2025年10月',
+        'skills.timeline3Event': 'Fur:RAID DJ',
+        'skills.timeline3Location': '🇰🇷 韩国兽迷大会',
+        
+        // Social Section
+        'social.title': '社交链接',
+        'social.subtitle': '在社交媒体上与我联系',
+        
+        // Contact Section
+        'contact.title': 'Contact',
+        'contact.subtitle': '如有工作咨询或合作机会，请通过此处联系我',
+        'contact.emailLabel': '邮箱',
+        'contact.emailNote': '',
+        'contact.responseLabel': '回复时间',
+        'contact.responseDesc': '通常在1-3个工作日内',
+        'contact.nameLabel': '姓名',
+        'contact.namePlaceholder': '张三',
+        'contact.emailInputLabel': '邮箱',
+        'contact.emailPlaceholder': 'your@email.com',
+        'contact.subjectLabel': '主题',
+        'contact.subjectPlaceholder': '咨询主题',
+        'contact.messageLabel': '信息',
+        'contact.messagePlaceholder': '请在此处写下您的咨询内容',
+        'contact.submit': '发送',
+        'contact.sending': '发送中...',
+        'contact.success': '消息已发送！我会尽快回复。',
+        'contact.error': '提交时发生错误。请直接通过电子邮件联系。',
+        
+        // Footer
+        'footer.tagline': 'DJ / 兽迷 / 摄影师',
+        'footer.copyright': '© 2024 Muzzle. 保留所有权利。'
+    },
+    
+    'zh-TW': {
+        // Navigation
+        'nav.about': '關於',
+        'nav.skills': '技能',
+        'nav.social': '社交',
+        'nav.contact': '聯繫',
+        
+        // Hero Section
+        'hero.title': 'MUZZLE',
+        'hero.role1': 'DJ',
+        'hero.role2': '獸迷',
+        'hero.role3': '攝影師',
+        'hero.description': '音樂、藝術與視覺敘事的融合',
+        'hero.cta1': '探索',
+        'hero.cta2': '聯繫我',
+        'hero.scroll': '滾動',
+        
+        // About Section
+        'about.title': '關於我',
+        'about.subtitle': '創意之旅',
+        'about.description1': '我將音樂的能量與視覺藝術的美感相結合，創造獨特的世界觀。作為DJ，我撼動舞池；作為攝影師，我捕捉瞬間；透過獸迷文化，我探索表達的新可能性。',
+        'about.description2': '融合在各個領域培養的經驗和感性，為您提供獨一無二的創意體驗。',
+        'about.imagePlaceholder': '個人照片',
+        
+        // Skills Section
+        'skills.title': '技能與經驗',
+        'skills.dj': 'DJ',
+        'skills.djDesc': '以跨越多種流派的混音技巧為特色。根據活動和舞池氣圍選曲，提供具有一體感的律動。跨越國界，在台灣和韓國也有活動。',
+        'skills.djTag1': '浩室',
+        'skills.djTag2': '電子舞曲',
+        'skills.djTag3': '流行音樂',
+        'skills.photography': '攝影',
+        'skills.photographyDesc': '捕捉情感和故事。從人像到活動攝影，涵蓋廣泛。',
+        'skills.photoTag1': '肖像',
+        'skills.photoTag2': '活動',
+        'skills.photoTag3': '創意',
+        'skills.furry': '獸迷文化',
+        'skills.furryDesc': '追求想像力和自我表達的自由。透過角色和社群活動進行創意表達。',
+        'skills.furryTag1': '獸裝',
+        'skills.furryTag2': '社群',
+        'skills.furryTag3': '表達',
+        'skills.organizer': '活動組織者',
+        'skills.organizerDesc': '透過活動策劃和管理，連接社群，提供創意體驗。',
+        'skills.organizerTag1': '活動策劃',
+        'skills.organizerTag2': '管理',
+        'skills.organizerTag3': '社群建設',
+        'skills.timelineTitle': '經驗時間線',
+        'skills.timeline0Badge': '即將到來',
+        'skills.timeline0Year': '2026年6月',
+        'skills.timeline0Event': 'UTFG2026',
+        'skills.timeline0Location': '🇹🇼 台灣獸迷大會',
+        'skills.timeline1Year': '2025年11月',
+        'skills.timeline1Event': 'Kemocon18 DJ',
+        'skills.timeline1Location': '🇯🇵 日本獸迷大會',
+        'skills.timeline2Year': '2025年11月',
+        'skills.timeline2Event': 'Infurnity2025 派對DJ',
+        'skills.timeline2Location': '🇹🇼 台灣獸迷大會',
+        'skills.timeline3Year': '2025年10月',
+        'skills.timeline3Event': 'Fur:RAID DJ',
+        'skills.timeline3Location': '🇰🇷 韓國獸迷大會',
+        
+        // Social Section
+        'social.title': '社交連結',
+        'social.subtitle': '在社交媒體上與我聯繫',
+        
+        // Contact Section
+        'contact.title': 'Contact',
+        'contact.subtitle': '如有工作諮詢或合作機會，請透過此處聯繫我',
+        'contact.emailLabel': '郵箱',
+        'contact.emailNote': '',
+        'contact.responseLabel': '回覆時間',
+        'contact.responseDesc': '通常在1-3個工作日內',
+        'contact.nameLabel': '姓名',
+        'contact.namePlaceholder': '張三',
+        'contact.emailInputLabel': '郵箱',
+        'contact.emailPlaceholder': 'your@email.com',
+        'contact.subjectLabel': '主題',
+        'contact.subjectPlaceholder': '諮詢主題',
+        'contact.messageLabel': '訊息',
+        'contact.messagePlaceholder': '請在此處寫下您的諮詢內容',
+        'contact.submit': '發送',
+        'contact.sending': '發送中...',
+        'contact.success': '訊息已發送！我會儘快回覆。',
+        'contact.error': '提交時發生錯誤。請直接透過電子郵件聯繫。',
+        
+        // Footer
+        'footer.tagline': 'DJ / 獸迷 / 攝影師',
+        'footer.copyright': '© 2024 Muzzle. 保留所有權利。'
+    },
+    
+    ko: {
+        // Navigation
+        'nav.about': '소개',
+        'nav.skills': '기술',
+        'nav.social': '소셜',
+        'nav.contact': '연락',
+        
+        // Hero Section
+        'hero.title': 'MUZZLE',
+        'hero.role1': 'DJ',
+        'hero.role2': '퍼리',
+        'hero.role3': '사진작가',
+        'hero.description': '음악, 예술, 그리고 시각적 스토리텔링의 융합',
+        'hero.cta1': '탐색',
+        'hero.cta2': '문의하기',
+        'hero.scroll': '스크롤',
+        
+        // About Section
+        'about.title': '소개',
+        'about.subtitle': '창의적 여정',
+        'about.description1': '음악의 에너지와 시각 예술의 아름다움을 결합하여 독특한 세계관을 창조합니다. DJ로서 플로어를 움직이고, 사진작가로서 순간을 포착하며, 퍼리 문화를 통해 표현의 새로운 가능성을 탐구합니다.',
+        'about.description2': '각 분야에서 쌓은 경험과 감성을 융합하여 유일무이한 창의적 경험을 제공합니다.',
+        'about.imagePlaceholder': '프로필 이미지',
+        
+        // Skills Section
+        'skills.title': '기술 및 경험',
+        'skills.dj': 'DJ',
+        'skills.djDesc': '다양한 장르를 넘나드는 믹싱 기술이 특징. 이벤트와 플로어의 분위기에 맞춰 선곡하여 일체감 있는 그루브를 제공. 국경을 넘어 대만과 한국에서도 활동.',
+        'skills.djTag1': '하우스',
+        'skills.djTag2': 'EDM',
+        'skills.djTag3': '팝',
+        'skills.photography': '사진',
+        'skills.photographyDesc': '감정과 이야기를 포착합니다. 인물 사진부터 이벤트 촬영까지 폭넓게 대응합니다.',
+        'skills.photoTag1': '인물',
+        'skills.photoTag2': '이벤트',
+        'skills.photoTag3': '크리에이티브',
+        'skills.furry': '퍼리 문화',
+        'skills.furryDesc': '상상력과 자기 표현의 자유를 추구합니다. 캐릭터와 커뮤니티 활동을 통한 창의적 표현을 합니다.',
+        'skills.furryTag1': '퍼슈트',
+        'skills.furryTag2': '커뮤니티',
+        'skills.furryTag3': '표현',
+        'skills.organizer': '주최자',
+        'skills.organizerDesc': '이벤트 기획과 관리를 통해 커뮤니티를 연결하고 창의적인 경험을 제공합니다.',
+        'skills.organizerTag1': '이벤트 기획',
+        'skills.organizerTag2': '관리',
+        'skills.organizerTag3': '커뮤니티 구축',
+        'skills.timelineTitle': '경험 타임라인',
+        'skills.timeline0Badge': '곧 공개',
+        'skills.timeline0Year': '2026년 6월',
+        'skills.timeline0Event': 'UTFG2026',
+        'skills.timeline0Location': '🇹🇼 대만 퍼리 컨벤션',
+        'skills.timeline1Year': '2025년 11월',
+        'skills.timeline1Event': 'Kemocon18 DJ',
+        'skills.timeline1Location': '🇯🇵 일본 퍼리 컨벤션',
+        'skills.timeline2Year': '2025년 11월',
+        'skills.timeline2Event': 'Infurnity2025 애프터파티 DJ',
+        'skills.timeline2Location': '🇹🇼 대만 퍼리 컨벤션',
+        'skills.timeline3Year': '2025년 10월',
+        'skills.timeline3Event': 'Fur:RAID DJ',
+        'skills.timeline3Location': '🇰🇷 한국 퍼리 컨벤션',
+        
+        // Social Section
+        'social.title': '소셜 링크',
+        'social.subtitle': '소셜 미디어에서 저와 연결하세요',
+        
+        // Contact Section
+        'contact.title': 'Contact',
+        'contact.subtitle': '업무 문의나 협업 기회가 있으시면 여기로 연락해 주세요',
+        'contact.emailLabel': '이메일',
+        'contact.emailNote': '',
+        'contact.responseLabel': '응답 시간',
+        'contact.responseDesc': '보통 1-3 영업일 이내',
+        'contact.nameLabel': '이름',
+        'contact.namePlaceholder': '홍길동',
+        'contact.emailInputLabel': '이메일',
+        'contact.emailPlaceholder': 'your@email.com',
+        'contact.subjectLabel': '제목',
+        'contact.subjectPlaceholder': '문의 제목',
+        'contact.messageLabel': '메시지',
+        'contact.messagePlaceholder': '문의 내용을 여기에 작성해 주세요',
+        'contact.submit': '보내기',
+        'contact.sending': '전송 중...',
+        'contact.success': '메시지가 전송되었습니다! 곧 답변드리겠습니다.',
+        'contact.error': '제출 중 오류가 발생했습니다. 이메일로 직접 연락해 주세요.',
+        
+        // Footer
+        'footer.tagline': 'DJ / 퍼리 / 사진작가',
+        'footer.copyright': '© 2024 Muzzle. 모든 권리 보유.'
+    }
+};
+
+// Export for use in main.js
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = translations;
+}
